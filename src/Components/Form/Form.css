@@ -17,6 +17,33 @@
     border: 1px solid lightgray;
     margin-top: 20px;
   }
+  @media (max-width: 400px){
+    .title{
+      font-size: 8vw;
+      text-align: center;
+    }
+    .form-input-box {
+      width: 70%;
+      
+    }
+    .form-img-prev {
+      max-width: 95%;
+      height: 180px;
+      border: 1px solid lightgray;
+      margin-top: 20px;
+    }
+    .form-text-box {
+      width: 70%;
+      margin: 3px auto 10px;
+    }
+    textarea {
+      min-width: 80%;
+      max-width: 80%;
+      min-height: 100px;
+      font-family: 'Open Sans','Courier New', Courier, monospace;
+      font-size: 12px;
+    }
+  }
   
   .form-input-box {
     width: 90%;
